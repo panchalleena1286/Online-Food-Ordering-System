@@ -30,4 +30,6 @@ public class CartItem {
     private List<String> ingredients;
 
     private Long totalPrice;
+
+    private Long price;
 }
