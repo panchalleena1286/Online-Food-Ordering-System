@@ -22,4 +22,8 @@ public class CreateRestaurantRequest {
     private String openingHours;
 
     private List<String> images;
+
+    public Object getAddress() {
+        return null;
+    }
 }

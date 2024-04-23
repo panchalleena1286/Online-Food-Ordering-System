@@ -1,18 +1,33 @@
 package com.zosh.service;
 
 import com.zosh.dto.RestaurantDto;
+import com.zosh.model.Address;
 import com.zosh.model.Restaurant;
 import com.zosh.model.User;
+import com.zosh.repository.AddressRepository;
+import com.zosh.repository.RestaurantRepository;
 import com.zosh.request.CreateRestaurantRequest;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
 import java.util.*;
 
-
+@Service
 public class RestaurantServiceImpl implements RestaurantService{
 
+    @Autowired
+    private RestaurantRepository restaurantRepository;
+
+    @Autowired
+    private AddressRepository addressRepository;
+
+    @Autowired
+    private UserService userService;
     @Override
     public Restaurant cretaeRestaurant(CreateRestaurantRequest req, User user) {
+
+
         return null;
     }
 
