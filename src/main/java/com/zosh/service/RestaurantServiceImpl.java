@@ -27,6 +27,7 @@ public class RestaurantServiceImpl implements RestaurantService{
     @Override
     public Restaurant cretaeRestaurant(CreateRestaurantRequest req, User user) {
 
+        Restaurant restaurant = new Restaurant();
 
         return null;
     }
