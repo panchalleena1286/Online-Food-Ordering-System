@@ -27,7 +27,13 @@ public class RestaurantServiceImpl implements RestaurantService{
     @Override
     public Restaurant cretaeRestaurant(CreateRestaurantRequest req, User user) {
 
-        Restaurant restaurant = new Restaurant();
+
+//        Address address = addressRepository.save(req.getAddress());
+//
+//        Restaurant restaurant = new Restaurant();
+//        restaurant.setAddress(address);
+//        restaurant.setContactInformation(req.getContactInformation);
+//        restaurant.
 
         return null;
     }
