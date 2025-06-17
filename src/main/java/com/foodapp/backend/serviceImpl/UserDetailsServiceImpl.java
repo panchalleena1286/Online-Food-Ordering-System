@@ -36,6 +36,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
                 new SimpleGrantedAuthority("ROLE_" + user.getRole().name())
         );
 
+
         // 3️⃣  Return Spring-Security compatible user
         return new org.springframework.security.core.userdetails.User(
                 user.getEmail(),          // username
