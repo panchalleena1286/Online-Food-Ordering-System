@@ -32,6 +32,7 @@ public class AuthController {
         user.setPassword(encoder.encode(user.getPassword()));
         userRepository.save(user);
         return ResponseEntity.ok("User registered successfully");
+        
     }
 
     @PostMapping("/login")
